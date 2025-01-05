@@ -8,6 +8,11 @@ import java.time.Duration;
 
 public class Driver {
 
+    private Driver(){}
+
+    //çok önemli ve olmazsa olmaz bir durum değil ama bir şekilde çoklu kullanım olursa driver obje ile çağrılmasın ***private ile
+    // değer atanmasın teknik adı->singleton
+
    static WebDriver driver;
 
     public static WebDriver getDriver(){
