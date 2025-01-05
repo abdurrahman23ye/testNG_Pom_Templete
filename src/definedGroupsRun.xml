@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="belirli grupları çalıştırma" verbose="1">
+    <!-- grup test annotation una eklenir alttada aranacak yer adreslenir-->
+
+    <groups><run><include name="01"></include></run></groups>
+
+    <test name="001"><packages><package name="tests.test01"></package></packages></test>
+
+
+
+
+
+</suite>
