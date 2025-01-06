@@ -14,6 +14,6 @@ public class youTubeMainPage {
 
     }
 
-    @FindBy(xpath ="//input[@name='search_query' and @type='text' and @class='ytSearchboxComponentInput yt-searchbox-input title']" )
+    @FindBy(xpath ="//aainput[@name='search_query' and @type='text' and @class='ytSearchboxComponentInput yt-searchbox-input title']" )
     public WebElement searchBox;
 }
