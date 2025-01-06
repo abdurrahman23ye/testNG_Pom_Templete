@@ -4,8 +4,9 @@ import org.testng.annotations.Test;
 import pages.youTubeMainPage;
 import utulities.Driver;
 import utulities.ConfigReader;
+import utulities.TestBaseReport;
 
-public class test002 {
+public class test002 extends TestBaseReport {
 
     youTubeMainPage youTubeMainPage=new youTubeMainPage();
 

@@ -7,7 +7,10 @@ import utulities.*;
 
 public class test001 extends TestBaseCross {
 
-    youTubeMainPage youTubeMainPage=new youTubeMainPage();
+    //bu testi cross için tekrardan düzenledim extends önemli driver methodtan gelmemeli ya da üzerinde
+    //çalışılmalı
+
+  //  youTubeMainPage youTubeMainPage=new youTubeMainPage();
 
     @Test
     public void test01() {
