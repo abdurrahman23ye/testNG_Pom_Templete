@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- üstteki satır default ekli olacak-
+
+test hiyerarşisi- uygun olmalı-->
+
+<suite name="bütün testleri çalıştırma" parallel="classes" thread-count="2">
+
+
+    <test name="test02">
+       <packages><package name="tests.*"></package></packages>
+
+    </test>
+
+</suite>
