@@ -26,7 +26,7 @@ public class ReusableMethods {
         TakesScreenshot ts = (TakesScreenshot) Driver.getDriver();
         File source = ts.getScreenshotAs(OutputType.FILE);
         // full path to the screenshot location
-        String target = System.getProperty("C:\\Users\\asus\\IdeaProjects\\pom_testNG\\test-output\\target\\Screenshots\\")  + date + ".png";
+        String target = System.getProperty("user.dir") + "/test-output/target/Screenshoots/" + date + ".png";
 
         File finalDestination = new File(target);
         // save the screenshot to the path given
