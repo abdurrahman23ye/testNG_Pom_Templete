@@ -3,20 +3,18 @@ package tests.test01;
 import org.testng.annotations.Test;
 
 import pages.youTubeMainPage;
-import utulities.Driver;
-import utulities.ConfigReader;
-import utulities.TestBaseReport;
+import utulities.*;
 
-public class test001 extends TestBaseReport {
+public class test001 extends TestBaseCross {
 
     youTubeMainPage youTubeMainPage=new youTubeMainPage();
 
     @Test
     public void test01() {
-        extentTest=extentReports.createTest("test01","login");
-        Driver.getDriver().get(ConfigReader.getProperty("youtubeUrl"));
+      //  extentTest=extentReports.createTest("test01","login");
+        driver.get(ConfigReader.getProperty("youtubeUrl"));
 
-        extentTest.info("page opened");
+       /* extentTest.info("page opened");
 
         extentTest.pass("success");
 
@@ -25,6 +23,8 @@ public class test001 extends TestBaseReport {
         extentTest.info("sended messsage to searchbox");
 
         extentTest.pass("success");
+
+        */
 
 
 
